@@ -1,0 +1,156 @@
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700|Noto+Sans:400,700|Noto+Serif);
+
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+
+header {
+    /* Sets background color to rich black */
+    background-color: #011C27;
+    margin-bottom: 40px;
+    /* Adds space under the header */
+  }
+
+  
+  
+  header h1 {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+  }
+  
+  header nav {
+     display: flex;
+     font-size: medium;
+     justify-content: center;
+  }
+  
+  header nav ul {
+     display: flex;
+     padding-left: 0;
+     list-style: none;
+  }
+  
+  header nav ul li a {
+     color: #545677;
+     /* nav font color */
+     font-family: 'Montserrat', sans-serif;
+     /* nav & ul font style */
+     text-decoration: none;
+     margin: 0 20px 0 0;
+  }
+  
+  header nav ul li:last-child a {
+     margin-right: 0;
+     /* nav center appearing */
+  }
+  
+  /* --  Photo -- */
+header h1 {
+	font-family: 'Playfair Display', serif;
+	color: #545677;
+	margin: 0px;
+    padding-top: 24px;
+    /* nav font size */
+	font-size: 32px;
+	text-align:center;
+}
+
+header h2 {
+	font-family: 'Playfair Display', serif;
+	color: #fff;
+	margin: 0px;
+	padding-top: 16px;
+	font-size: 22px;
+	text-align: center;
+}
+
+
+h1, h2 {
+	color: #000;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.wrapper {
+    width: 800px;
+	margin: auto;	
+}
+
+.wrapper2 {
+    width: 600px;
+    margin: auto;	
+}
+
+.gap-sm {
+    height: 50px;
+    width: auto;
+}
+.gap-md {
+    height: 100px;
+    width: auto;
+}
+.gap-lg {
+    height: 200px;
+    width: auto;
+}
+
+.gap-footer {
+    height: 10px;
+    width: auto;
+}
+
+.hero {
+    background-image: url(images/ady2020.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-y: -110px;
+    background-size: 90%;
+    text-align:center;
+}
+
+.hero h1 {
+	font-size: 60px;
+	color: white;
+	text-shadow: 0 0 10px #000;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+	font-size: 20px;
+	color: white;
+	background: #C17F54;
+	display:inline;
+    padding: 3px 10px;
+    border-radius: 8px;
+}
+    
+.bg-accent {
+      background-color: #E4C782;  
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.bg-accent p,
+.bg-accent h2 { color: #fff; }
+
+.bg-accent a:link { color: #f0eee9; }
+.bg-accent a:visited { color: #e3e1dc; }
+.bg-accent a:hover { color: #e3e1dc; }
+.bg-accent a:active { color: #f0eee9; }
+  
+  @media all and (min-width: 600px) {
+     header {
+        font-size: 52px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+     }
+  
+     header nav {
+        margin-top: 15px;
+     }
+  }
