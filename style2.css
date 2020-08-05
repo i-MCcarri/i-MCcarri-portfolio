@@ -10,11 +10,8 @@ header {
     /* Sets background color to rich black */
     background-color: #011C27;
     margin-bottom: 40px;
-    /* Adds space under the header */
   }
 
-  
-  
   header h1 {
   color: #fff;
   text-align: center;
@@ -137,10 +134,32 @@ h1, h2 {
 .bg-accent p,
 .bg-accent h2 { color: #fff; }
 
-.bg-accent a:link { color: #f0eee9; }
-.bg-accent a:visited { color: #e3e1dc; }
-.bg-accent a:hover { color: #e3e1dc; }
-.bg-accent a:active { color: #f0eee9; }
+form label {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: bold;
+    margin-bottom: 5px;
+    color: #000;
+    font-family: arial;
+  }
+
+  form input[type=text] {
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 200px;
+  }
+
+  form textarea {
+    height: 4.75rem;
+    width: 500px;
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
   
   @media all and (min-width: 600px) {
      header {
